@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Line Simplification - Draw a Polyline</title>
+
+    <!-- Leaflet CSS and JS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+    <!-- Leaflet Draw CSS and JS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw.js"></script>
+
+    <!-- Turf.js for line simplification -->
+    <script src="https://unpkg.com/@turf/turf@6/turf.min.js"></script>
+
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Line Simplification - Draw a Polyline</h1>
+    <div id="controls">
+        <div id="action-controls">
+            <button id="simplify-btn" class="control-button"><i class="fas fa-simplify"></i> Simplify</button>
+            <button id="clear-btn" class="control-button"><i class="fas fa-trash"></i> Remove</button>
+        </div>
+    </div>
+    <div id="map"></div>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
