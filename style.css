@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#map {
+  height: 600px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+#controls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+#draw-controls, #action-controls {
+  display: flex;
+  gap: 10px;
+}
+
+.control-button {
+  padding: 10px;
+  background-color: gray;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.control-button:hover {
+  background-color: #0056b3;
+}
